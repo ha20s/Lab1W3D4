@@ -31,6 +31,17 @@ for (let i = 0; i < 3 ; i++){
 
 
 
+// let table = document.createElement("table");
+// table.setAttribute("id", "myTable");
+
+// let cell = document.createElement("cell")
+
+// table.appendChild(cell)
+
+
+
+
+
 
 
 
