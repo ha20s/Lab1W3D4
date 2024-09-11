@@ -19,24 +19,40 @@ let list = document.querySelector(".list")
 // let creatli = document.createElement("li")
 list.style.fontStyle  = "oblique"
 list.style.border = "2px solid "
-list.style.flex = 2
+
+list.style.display = "flex"
+list.style.justifyContent = "space-around"
 
 // list.style.flex = "flex-grow flex-shrink"
 
 for (let i = 0; i < 3 ; i++){
     let creatli = document.createElement("li")
     creatli.innerText = "Hello i'm in" + i;
+
+    // creatli.style.border  = "2px solid"
     list.appendChild(creatli)
 }
 
 
 
-// let table = document.createElement("table");
-// table.setAttribute("id", "myTable");
 
-// let cell = document.createElement("cell")
+let table = document.getElementById("table");
 
-// table.appendChild(cell)
+
+for(let i = 1 ; i<= 3 ; i++){
+    let cell = document.createElement("TD")
+    cell.innerText = "Hasna"
+table.appendChild(cell)
+
+for(x= 1 ; x<3 ; x++){
+    let cell2 = document.createElement("TR")
+    cell2.innerText = "Ahmed"
+    cell.appendChild(cell2)
+}
+}
+
+
+
 
 
 
